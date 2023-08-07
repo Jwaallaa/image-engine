@@ -10,11 +10,6 @@ export default function Navbar({searchText}) {
     e.preventDefault();
     searchText(text);
   }
-
-  
-  
-  
-  
   return (
     
     <nav className="navbar navbar-expand-lg bg-light">

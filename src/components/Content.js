@@ -4,8 +4,7 @@ import Spinner from "./Spinner";
 import Navbar from "./Navbar";
 
 function Content() {
-  // let Images = [2,3,4,6,7,8,9,0]
-  const [images, setImages] = useState([]);  // setEmailList([])
+  const [images, setImages] = useState([]); 
   const [isLoading, setIsLoading] = useState(true);
   const [term, setTerm] = useState('technology');
   const[pageno , setPageno] = useState(1)
